@@ -1,0 +1,170 @@
+.rodape{
+    background-color: var( ---cor__textos);
+    display: flex;
+    justify-content: space-around;
+    padding: calc(1em + 1vw);
+    align-items: flex-start;
+    
+}
+
+
+.lista__redes{
+    display: flex;
+    list-style: none;
+}
+
+.redessociais__rodape , 
+.facebook__rodape{
+    width:  calc(1em + 2vw);
+}
+
+
+.lista__redes ,
+.titulo__redes{
+    padding-left: calc(1em + 7vw);
+    
+}
+
+.titulo__redes{
+    font-family: var(---fonte__cabecalho);
+    font-weight: 400;
+    color: var(---cor__titulos);
+    padding-top: calc(1em + -3vw);
+    margin-top: calc(1em + -3vw);
+}
+
+.lista__redes{
+    margin-top: calc(1em + -2vw);
+    padding-left: calc(1em + 7vw);
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: calc(1em + 20vw);
+    
+}
+
+.contato, 
+.rodape__redes{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+  
+   
+}
+
+.formulario{
+    
+        display: flex;
+        flex-direction: column;
+        margin: calc(1em + -0.5vw);
+        border-radius: calc(1em + 1vw);
+        border-color: var(---cor--detalhes);
+        font-size: clamp(1rem, 0.9vw, 2rem);
+}
+
+.titulo__contato{
+    font-family: var(---fonte__cabecalho);
+    font-weight: 400;
+    color: var(---cor__titulos);
+    margin-top: calc(1em + -1vw);
+}
+
+.botao__formulario{
+        background-color: var(---cor__titulos);
+        border-radius: calc(1em + 1vw);
+        border-color: var(---cor--detalhes);
+        width: calc(1em + 5vw);
+        text-align: center;
+        margin-top: calc(1em + 0vw);
+        margin-left: calc(1em + 16vw);
+        font-size: clamp(1rem, 1vw, 2rem);
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.redes__rodape{
+    margin-top: calc(1em + 1vw);
+}
+/*
+
+.rodape{
+    padding: calc(1em + 1vw) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem__rodape{
+    width: calc(1em + 7vw);
+    display: flex;
+    padding-left: calc(1em + 5vw);
+
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: calc(1em + 5vw);
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: calc(1em + -0.5vw);
+    border-radius: calc(1em + 1vw);
+    border-color: var(---cor--detalhes);
+    
+    background-color: var(---fundo)
+}
+
+.titulo__rodape{
+    color: var(---cor__titulos);
+    font-size: clamp(1rem, 1.5vw, 2rem) ;
+}
+
+.redes__rodape{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.titulo__redes{
+    font-family: var(---fonte__cabecalho);
+    font-weight: 400 ;
+    padding-left: calc(1em + 15vw);
+    margin: 0 ;
+    
+}
+
+.rodape__redes{
+    margin-left: calc(1em + -80vw);
+}
+
+
+
+.redessociais__rodape{
+    width: calc(1em + 2vw);
+    padding-top: calc(1em + 1vw);
+    
+
+}
+
+.facebook__rodape{
+    width: calc(1em + 3vw);
+    padding-top: calc(1em + 1vw);
+    
+    
+}
+
+
+.lista__redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(1em + 1vw);
+}
+

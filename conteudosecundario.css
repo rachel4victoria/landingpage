@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.conteudo__div__secundario{
+    background-color: var(---fundo);
+    
+  
+}
+
+.conteudo__secundario{
+    display: flex;
+    padding-right: calc(1em + 5vw);
+  
+   
+}
+
+.conteudo__div__secundario, 
+.imagem__conteudo__secundario{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo__secundario{
+    display: flex;
+    flex-direction: column;
+    padding-left: calc(1em + 3vw);
+    margin-top: calc(1em + 1vw);
+}
+
+.imagem__conteudo__secundario{
+    width: calc(1em + 50vw);
+    margin-top: calc(1em + -4vw)
+}
+
+.conteudo__titulo__secundario{
+    font-size: clamp(3rem, 2.5vw, 2rem);
+    color: var(---cor--detalhes);
+    margin-top: calc(1em + -13vw);
+    font-family: var(---fonte__cabecalho);
+}
+    
+
+.conteudo__descricao__secundario{
+    
+    font-size: clamp(1rem, 1vw, 2rem);
+    font-family: var(---fonte__texto);
+   
+}

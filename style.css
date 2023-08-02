@@ -1,0 +1,113 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root{
+    ---fundo: #F6F5F5;
+    ---fonte__cabecalho: Josefin sans;
+    ---cor--detalhes: #E3C4A8;
+    ---fonte__texto: Poppins;
+    ---cor__titulos: #4592AF;
+    ---cor__textos: #33313B;
+
+}
+
+body{
+    background: var(---fundo)
+
+}
+.cabecalho{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: calc(1em + -1vw);
+}
+.logo{
+    width: calc(1em + 7vw);
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: calc(1em + 1vw);
+    font-size: clamp(1rem, 1.5vw, 2rem); 
+    font-family: var(---fonte__cabecalho);
+    font-weight: 400;
+}
+
+.conteudo{
+    
+    border-top: calc(0em + 0.1vw) solid var(---cor--detalhes);
+    padding-top: calc(1em + -7vw);
+    background-color: var(---cor__textos);
+  
+}
+
+.conteudo__div, 
+.imagem__conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: calc(1em + -4vw) 
+}
+
+.conteudo__principal{
+    display: flex;
+    flex-direction: column;
+    padding-left: calc(1em + 5vw);
+    padding-top: calc(1em + 10vw);
+   
+
+
+}
+
+
+.conteudo__titulo, .conteudo__descricao{
+    
+    font-family: var(---fonte__texto) ;
+  align-items: center;
+    
+
+  
+    
+}
+
+.conteudo__titulo{
+    font-size: clamp(3rem, 2.5vw, 2rem);
+    color: var(---cor__titulos);
+    margin-top: calc(1em + -20vw);
+    
+  
+}
+    
+
+
+.conteudo__descricao{
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    color: var(---fundo) ;
+    font-weight: 400;
+    
+ 
+}
+
+.conteudo__botao{
+    width: calc(1em + 10vw);
+    background-color: var(---cor__titulos);
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: calc(1em + 1vw);
+    font-size: clamp(1.1rem, 0.5vw, 2rem);
+    font-family: var(---fonte__texto);
+    font-weight: 400;
+
+
+}
+
+
+.imagem__conteudo{
+    width: calc(1em + 150vw);
+    margin-top: calc(1em + -15vw);
+   ;
+}
