@@ -111,3 +111,29 @@ body{
     margin-top: calc(1em + -15vw);
    ;
 }
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.hrIndex, .hrServico, .hrSobre, .hrFAQ{
+    position: absolute; 
+    text-decoration: none;   
+}
+
+.hrIndex{
+    margin-left: calc(1em + -25vw);
+
+}
+.hrServico{
+    margin-left: calc(1em + -17vw);
+}
+.hrSobre{
+    margin-left: calc(1em + -8vw);
+}
+.hrFAQ{
+    margin-left: calc(1em + 2vw);
+}

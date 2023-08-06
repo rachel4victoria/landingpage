@@ -1,0 +1,50 @@
+body{
+    background: var(---fundo)
+
+}
+
+
+.cabecalho{
+   
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: calc(1em + -1vw);
+    
+}
+
+.logo{
+    width: calc(1em + 7vw);
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: calc(1em + 1vw);
+    font-size: clamp(1rem, 1.5vw, 2rem); 
+    font-family: var(---fonte__cabecalho);
+    font-weight: 400;
+}
+
+.hrIndex, .hrServico, .hrSobre, .hrFAQ{
+    position: absolute;    
+}
+
+.hrIndex{
+    margin-left: calc(1em + -25vw);
+
+}
+.hrServico{
+    margin-left: calc(1em + -17vw);
+}
+.hrSobre{
+    margin-left: calc(1em + -8vw);
+}
+.hrFAQ{
+    margin-left: calc(1em + 2vw);
+}
+
+.hrIndex, .hrServico, .hrSobre, .hrFAQ{
+    position: absolute; 
+    text-decoration: none;   
+}
